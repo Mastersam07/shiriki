@@ -1,0 +1,27 @@
+name: shiriki
+description: A flutter plugin to share text.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: tech.mastersam.shiriki
+        pluginClass: ShirikiPlugin
+      ios:
+        pluginClass: ShirikiPlugin
